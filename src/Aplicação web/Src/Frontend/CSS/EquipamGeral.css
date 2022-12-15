@@ -4,13 +4,7 @@ body {
     margin: 0;
 }
 
-.logo {
-    width: 97px;
-    height: 39px;
-    left: 253px;
-    padding-left: 200px;
-    justify-content: center;
-}
+
 
 .objeto {
     font-family: 'Inter';
@@ -64,12 +58,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-header {
-    background-color: #ECF8FF;
-    left: 110px;
-    text-align: center;
-}
-
 
 
 h1 {
@@ -115,14 +103,6 @@ h2 {
 }
 
 
-.menu {
-    border: 0;
-    background-color: rgb(225, 243, 255);
-    display: flex;
-    height: 40px;
-    width: 40px;
-}
-
 .cabe {
     display: flex;
     align-items: center;
@@ -130,18 +110,12 @@ h2 {
     height: 70px;
 }
 
-.fim {
-    display: flex;
-    justify-content: space-between;
+/* .footer {
     height: 70px;
-}
+    color:rgb(225, 243, 255);
+    position: fixed;
+} */
 
-.fundobot {
-    background: #F3F3F3;
-    ;
-    border: 0;
-    align-items: center;
-}
 #listagem{
     text-align: center;
 }
@@ -176,47 +150,31 @@ h2 {
     border: 0;
 }
 
-.botcaixa1 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 240px;
-    background: transparent;
+.foto2
+{
+    padding: 8px;
+    width: 50px;
+    margin-left: 25px;
+    align-items: center;
 }
 
-.botcaixa2 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 377px;
-    background: transparent;
-}
-
-.botcaixa3 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 514px;
-    background: transparent;
-}
-
-.botcaixa4 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 651px;
-    background: transparent;
-}
-
-.botcaixa5 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 788px;
-    background: transparent;
-}
+.tools{
+    background-color: #E83F17;
+    padding: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    }
+    
+    .tools img{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    
+    }
